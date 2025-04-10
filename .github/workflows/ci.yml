@@ -23,6 +23,13 @@ jobs:
     - name: Verify GCC installation
       run: g++ --version  # Check if MinGW GCC is installed correctly
 
+    # Remove existing build directory (if it exists)
+    - name: Remove existing build directory
+      run: |
+        if (Test-Path "build") {
+          Remove-Item -Recurse -Force "build"  # Remove the 'build' directory if it exists
+        }
+
     # Create build directory
     - name: Create build directory
       run: mkdir build  # Create a build directory
