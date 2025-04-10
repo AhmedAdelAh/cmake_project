@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libfeature1.a CMakeFiles/feature1.dir/src/feature1.cpp.obj
+C:\MinGW\bin\ranlib.exe libfeature1.a

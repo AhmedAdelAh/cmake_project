@@ -1,0 +1,13 @@
+D:/my_project/build/CMakeFiles/edit_cache.dir
+D:/my_project/build/CMakeFiles/rebuild_cache.dir
+D:/my_project/build/features/features1/CMakeFiles/features1.dir
+D:/my_project/build/features/features1/CMakeFiles/edit_cache.dir
+D:/my_project/build/features/features1/CMakeFiles/rebuild_cache.dir
+D:/my_project/build/miniapp/miniapp1/CMakeFiles/miniapp1.dir
+D:/my_project/build/miniapp/miniapp1/CMakeFiles/edit_cache.dir
+D:/my_project/build/miniapp/miniapp1/CMakeFiles/rebuild_cache.dir
+D:/my_project/build/TC377/CMakeFiles/cpu0_executable.dir
+D:/my_project/build/TC377/CMakeFiles/cpu1_executable.dir
+D:/my_project/build/TC377/CMakeFiles/cpu2_executable.dir
+D:/my_project/build/TC377/CMakeFiles/edit_cache.dir
+D:/my_project/build/TC377/CMakeFiles/rebuild_cache.dir
