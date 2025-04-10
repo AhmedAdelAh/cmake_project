@@ -1,0 +1,38 @@
+name: C++ CI/CD (Windows + MinGW)
+
+on:
+  push:
+    branches:
+      - main  # Trigger CI on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # Trigger CI on PRs targeting the 'main' branch
+
+jobs:
+  build:
+    runs-on: windows-latest  # Use the latest available Windows runner
+
+    steps:
+    # Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+
+
+    # Verify GCC installation
+    - name: Verify GCC installation
+      run: g++ --version  # Check if MinGW GCC is installed correctly
+
+    # Create build directory
+    - name: Create build directory
+      run: mkdir build  # Create a build directory
+
+    # Configure the project with CMake (using MinGW Makefiles generator)
+    - name: Configure with CMake
+      run: cmake -S . -B build -G "MinGW Makefiles"  # Configure project
+
+    # Build the project
+    - name: Build project
+      run: cmake --build build  # Build project using CMake
+
+
